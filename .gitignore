@@ -1,0 +1,62 @@
+# Ableton Live プロジェクトファイル
+*.als
+*.alc
+*.alp
+*.adv
+*.adg
+
+# プロジェクトファイルディレクトリ（手動で追跡したいファイルは別途追加する）
+projects/*/project_files/
+
+# オーディオファイル
+*.wav
+*.mp3
+*.aif
+*.aiff
+*.flac
+*.ogg
+*.m4a
+
+# バックアップファイル
+Backup/
+*.als.bak
+
+# Abletonが作成する一時ファイル
+*.als.tmp
+
+# macOS関連
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows関連
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# 大きなバイナリファイル
+*.zip
+*.rar
+*.7z
+
+# Max for Liveデバイス（必要に応じて除外を解除）
+# *.amxd
+
+# VST/AUプラグインプリセット（必要に応じて除外を解除）
+*.fxp
+*.fxb
+*.vstpreset
+
+# サンプルファイル（特定のサンプルのみをリポジトリに含めたい場合は個別に除外を解除）
+samples/**/*.wav
+samples/**/*.mp3
+samples/**/*.aif
+samples/**/*.aiff
+
+# 例外: サンプル情報やメタデータのテキストファイルは追跡する
+!samples/**/info.md
+!samples/**/metadata.txt

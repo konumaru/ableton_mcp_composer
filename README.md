@@ -50,6 +50,7 @@ ableton_composer/
 
 - 大きなオーディオファイルやAbletonプロジェクトファイルはGitで管理せず、外部ストレージ（Googleドライブなどのクラウドストレージ）で管理することをお勧めします
 - 参照用のオーディオクリップは短いものに限り、`samples/` ディレクトリに保存可能
+- [ableton-mcp](https://github.com/ahujasid/ableton-mcp)のインストールが必須
 
 ## 今後の展望
 
